@@ -76,7 +76,7 @@ class ReminderForm extends Component {
         <Form className="w-full flex flex-col gap-3">
           <FormFieldset>
             <FormLabel htmlFor="description">
-              What do you want to remember?
+            Event Title
             </FormLabel>
             <div className="flex flex-row flex-wrap gap-2">
               <Field
@@ -97,7 +97,7 @@ class ReminderForm extends Component {
           </FormFieldset>
 
           <FormFieldset>
-            <FormLabel htmlFor="date">When?</FormLabel>
+            <FormLabel htmlFor="date">Day/Date ?</FormLabel>
 
             <div className="flex flex-row flex-wrap gap-2">
               <Field
@@ -118,12 +118,12 @@ class ReminderForm extends Component {
           </FormFieldset>
 
           <FormFieldset>
-            <FormLabel htmlFor="city">Where?</FormLabel>
+            <FormLabel htmlFor="city">Place ?</FormLabel>
             <Field
               id="city"
               name="city"
               component={FormTextInput}
-              placeholder="e.g.: New York City"
+              placeholder="e.g.: Bangalore"
             />
             <ErrorMessage component={FormErrorMessage} name="city" />
           </FormFieldset>

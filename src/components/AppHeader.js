@@ -15,7 +15,6 @@ function AppHeader({ month, newReminder }) {
           className="uppercase flex flex-row flex-nowrap items-center gap-2 p-3 lg:px-4 lg:py-2 shadow rounded-full lg:rounded text-lg font-medium bg-white hover:bg-gray-200 text-indigo-700 hover:text-indigo-900 transition-colors duration-150"
         >
           <PlusIcon svgClassName="w-6 h-6" />
-          {/* <span className="hidden lg:inline">New Reminder</span> */}
            <span className="hidden lg:inline">Add Event</span>
         </button>
       </div>
